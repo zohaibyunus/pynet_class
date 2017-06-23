@@ -1,0 +1,6 @@
+---
+- name: Generate confgiuration file
+  hosts: local
+  
+  roles:
+   - switch  
